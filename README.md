@@ -28,3 +28,13 @@ You'll need to provide the following variables to the container.
 - `SONARR_TOKEN`
 - `SONARR_ROOT`: the directory where you store your media
 - `SONARR_QUALITY_PROFILE`: defaults to "HD - 720p/1080p"
+
+## Why not use Addarr?
+
+[Addarr](https://github.com/Waterboy1602/Addarr) takes a
+different approach by providing menus and commands to search,
+`arr-telegram-bot` is a hands off helper that adds anything
+it comes across.
+
+This is very practical if you have a shared group chat so
+anyone can send links without having to fiddle with a bot.
