@@ -58,6 +58,7 @@ async def add_to_library(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 SONARR_ROOT,
                 quality_profile=SONARR_QUALITY_PROFILE,
                 tvdb_id=tvdb_id,
+                language_profile="",
             )
 
 
