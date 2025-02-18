@@ -1,0 +1,17 @@
+[project]
+name = "arr-bot"
+version = "0.1.0"
+description = "A Telegram bot that listens to incoming messages and finds movies and shows from IMDB links to add in Radarr and Sonarr."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "arrapi>=1.4.13",
+    "httpx>=0.28.1",
+    "python-telegram-bot>=21.10",
+    "setuptools>=75.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.6",
+]
