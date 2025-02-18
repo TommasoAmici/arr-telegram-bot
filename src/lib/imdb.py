@@ -45,7 +45,7 @@ class IMDB:
 
         logging.info("processing %s", imdb_id)
 
-        res = httpx.get(url, headers=IMDB.__headers)
+        res = httpx.get(url, headers=IMDB.__headers, follow_redirects=True)
         if res.status_code >= 400:
             return
         is_tv = "episode-guide-text" in res.text
