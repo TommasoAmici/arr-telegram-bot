@@ -1,0 +1,14 @@
+[tools]
+go = "1.24"
+
+[env]
+_.file = '.env'
+
+[tasks.run]
+run = 'go run main.go'
+
+[tasks.build]
+run = 'go build -o main main.go'
+
+[tasks.format]
+run = 'gofmt -w .'
